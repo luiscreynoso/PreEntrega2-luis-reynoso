@@ -1,0 +1,59 @@
+*{
+margin: 0; 
+padding: 0; 
+box-sizing: border-box;}
+
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+a {text-decoration: none;}
+
+ul, ol{list-style: none;}
+
+/*----HEADER-----*/
+
+.header{
+    background-color:#DAF7A6 ;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    flex-direction: row;
+
+}
+
+.box-top{
+    padding: 6px 0;
+    background-color: black;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.6rem;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+
+.nav-list{
+    display: flex;
+    gap: 15px;
+    
+}
+
+/*----PORTADA----*/
+.imagen-portada{
+background-image:url(../img/portada.jpeg);
+padding: 0%;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+}
+
+/*-destacados*/
+.productos-titulo{
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
