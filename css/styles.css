@@ -57,3 +57,27 @@ flex-direction: row;
     flex-direction: row;
 }
 
+
+/*seccion como comprar responsive*/
+.header-comocomprar{
+    ;
+}
+
+/*.header-title{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}*/
+
+.box-top{
+    display: none;
+}
+
+.nav-list{
+    flex-direction: column-reverse;
+    font-size: 0.5 rem;
+    padding: 2em;
+    text-align: center;
+}
+
