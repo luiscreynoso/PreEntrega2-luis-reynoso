@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+
+//header como comprar version escritorio// 
+
+.div-cuerpo {
+    background-color: #DAF7A6;
+}
+
+.header-title{
+display: flex;
+justify-content: flex-end;
+height: 80px;
+width: 80px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(80px, 5vh);
+    background-color: white;
+    padding: 1em;
+    }
+
+.nav-list {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.nav {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-decoration:underline;
+    align-items: center;
+    justify-content: center;
+    background-color: #DAF7A6;
+    border-radius: 1em;
+}
+
+
+//section como comprar//
+
+.div-main-comocomprar{
+    background-color: #DAF7A6;
+}
+
+.title-indicaciones{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: #DAF7A6;
+    padding: 1rem;
+}
+
+.div-cuerpo-comocomprar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+}
+
+.indicaciones{
+   grid-row: span 2;
+   grid-column: span 2;
+   gap: 15px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.ol-indicaciones{
+    padding: 1rem;
+    list-style-type: circle;
+}
+
+//footer como comprar//
+.footer-como-comprar{
+    background-color:#D5F5E3;
+    padding: 1rem;
+}
+
+.div-footer{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(200px, 5vh);
+    
+    
+    }
+.logo-redessociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.pie-del-footer{
+   grid-column: span 2;
+   display: flex;
+   justify-content: center;
+}
+
+.title-mediosdepago{
+    display: flex;
+    justify-content: center;
+}
+
+.img-mercadopago{
+height: 180px;
+width: 400px;
+}
+

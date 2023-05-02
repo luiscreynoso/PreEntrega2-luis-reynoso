@@ -4,83 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="cuerpo-encabezado">
-    <header class="header-title">
-        <h1>
-            <figure>
-                <img class="header-title" src="../img/logotipo.png" width="100%" alt="logo de marca">
+    <div class="div-cuerpo">
+        <header class="header">
+            <h1 class="header-title">
+                <img class="logo" src="../img/imgdecorart.jpg" alt="logo de marca">
+            </h1>
 
-            </figure>
-        </h1>
-        <nav>
-            <div>
-                <ul class="nav">
-                    <li class="nav-list">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
                         <a class="nav-link" href="../index.html">INICIO</a>
-                      </li>
-                      <li class="nav-list">
+                    </li>
+                    <li class="nav-list-item">
                         <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
-                      </li>
-                      <li class="nav-list">
+                    </li>
+                    <li class="nav-list-item">
                         <a class="nav-link" href="../pages/contactos.html">CONTACTOS</a>
-                      </li>
-                      <li class="nav-list">
+                    </li>
+                    <li class="nav-list-item">
                         <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
-                      </li>
-                      <li class="nav-list">
+                    </li>
+                    <li class="nav-list-item">
                         <a class="nav-link" href="../pages/comocomprar.html">COMO COMPRAR</a>
-                      </li>
-
+                    </li>
+                    <li><img src="../img/shopping-cart.png" alt="logo de compra"></li>
                 </ul>
-                   
-            </div>
-
-        </nav>
+            </nav>
+        </header>
     </div>
 
-        <main>
-            <section class="indicaciones">
-                <ol style="list-style-type: decimal-leading-zero; padding-left: 2em;">
-                    <li>Elige el producto que deseas comprar.</li>
-
-                    <li>Haz clic en el botón de "Agregar al carrito". Esto agregará el producto a tu carrito y te
-                        llevará al mismo.</li>
-                    <li>Puedes seguir agregando otros productos al carrito o sino haz clic en "Iniciar Compra".</li>
-                    <li>Completa tus datos de contacto y haz clic en "Continuar".</li>
-                    <li>Ingresa la dirección a donde deseas recibir el producto. Luego haz clic en "Continuar".</li>
-                    <li>Selecciona el método de envío que desees y haz clic en "Continuar"</li>
-                    <li>Elige el medio de pago.
-                        También puedes seleccionar la opción de "A convenir".
-                        Una vez que hayas elegido el medio de pago, haz clic en "Continuar".</li>
-                    <li>Finalmente en la página de Confirmación de compra puedes revisar toda la información de la
-                        compra. Luego haz clic en "Continuar".</li>
-                    <li>Ahí serás redirigido a otra pantalla para que completes los datos sobre la forma de pago
-                        elegida. Después de confirmar la compra recibirás un correo de nuestra parte, ese no será un
-                        comprobante de pago.</li>
-                    <li>Una vez acreditado el pago, haremos el envío correspondiente de los productos que hayas
-                        comprado.</li>
-                </ol>
-
+    <main>
+        <div class="div-main-comocomprar">
+            <section>
+                <h2 class="title-indicaciones">
+                    <p>SIGUE LOS PASOS Y A DISFRUTAR</p>
+                </h2>
             </section>
-        </main>
+            <div class="div-cuerpo-comocomprar">
+                <section class="indicaciones">
+                    <ol class="ol-indicaciones">
+                        <li>Elige el producto que deseas comprar.</li>
 
-        <footer>
-            <br>
-            <h4>
-                © Copyright Artesana Decoart - 2023 / Todos los derechos reservados.
-            </h4>
+                        <li>Haz clic en el botón de "Agregar al carrito". Esto agregará el producto a tu carrito y te
+                            llevará al mismo.</li>
+                        <li>Puedes seguir agregando otros productos al carrito o sino haz clic en "Iniciar Compra".</li>
+                        <li>Completa tus datos de contacto y haz clic en "Continuar".</li>
+                        <li>Ingresa la dirección a donde deseas recibir el producto. Luego haz clic en "Continuar".</li>
+                        <li>Selecciona el método de envío que desees y haz clic en "Continuar"</li>
+                        <li>Elige el medio de pago.
+                            También puedes seleccionar la opción de "A convenir".
+                            Una vez que hayas elegido el medio de pago, haz clic en "Continuar".</li>
+                        <li>Finalmente en la página de Confirmación de compra puedes revisar toda la información de la
+                            compra. Luego haz clic en "Continuar".</li>
+                        <li>Ahí serás redirigido a otra pantalla para que completes los datos sobre la forma de pago
+                            elegida. Después de confirmar la compra recibirás un correo de nuestra parte, ese no será un
+                            comprobante de pago.</li>
+                        <li>Una vez acreditado el pago, haremos el envío correspondiente de los productos que hayas
+                            comprado.</li>
+                    </ol>
 
-            <h4>
-                Rosario, Santa fe / 2000
-            </h4>
-        </footer>
+                </section>
+            </div>
+        </div>
+    </main>
 
+
+    <footer class="footer-como-comprar">
+        <div class="div-footer">
+            <h2 class="title-mediosdepago">
+                <img class="img-mercadopago" src="../img/mercadopago.jpeg" alt="imagen de modos de pago">
+            </h2>
+
+            <ul class="logo-redessociales">
+                <li><img src="../img/facebook.png" alt="logo de facebook"></li>
+                <li><img src="../img/instagram.png" alt="logo de instagram"> <a href="../rutas/instagram.url"></a></li>
+                <li><img src="../img/whatsapp.png" alt="logo de whatsapp"></li>
+            </ul>
+            <div class="pie-del-footer">
+                <h3>
+                    © Copyright Artesana Decoart - 2023 / Todos los derechos reservados.
+
+                    Rosario, Santa fe / 2000
+
+                </h3>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
