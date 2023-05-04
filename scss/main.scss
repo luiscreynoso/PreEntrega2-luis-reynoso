@@ -69,7 +69,7 @@ width: 80px;
     justify-content: center;
     background-color: black;
     color: #DAF7A6;
-    padding: 1rem;
+    padding: 0.5em;
 }
 
 .div-cuerpo-comocomprar{
@@ -79,21 +79,26 @@ width: 80px;
     
 }
 
-.indicaciones{
+.section-indicaciones{
    grid-row: span 2;
    grid-column: span 2;
-   gap: 15px;
+   gap: 2rem;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
 }
 .ol-indicaciones{
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.list-indicaciones{
+    gap: 5rem;
     list-style-type: circle;
+
 }
 
 //footer como comprar//
 .footer-como-comprar{
-    background-color:#D5F5E3;
+    background-color:white;
     padding: 1rem;
 }
 
@@ -128,3 +133,43 @@ height: 180px;
 width: 400px;
 }
 
+
+
+// header nosotros version escritorio//
+
+.div-cuerpo {
+    background-color: #DAF7A6;
+}
+
+.header-title{
+display: flex;
+justify-content: flex-end;
+height: 80px;
+width: 80px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DAF7A6;
+    padding: 1em;
+    }
+
+.nav-list {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.nav {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-decoration:underline;
+    align-items: center;
+    justify-content: center;
+    background-color: #DAF7A6;
+    border-radius: 1em;
+}
