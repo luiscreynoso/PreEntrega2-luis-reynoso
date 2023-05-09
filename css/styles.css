@@ -27,13 +27,20 @@ li {
 
 .title-carousel {
   color: rgba(4, 116, 10, 0.4235294118);
+  text-shadow: 10px 10px 10px;
+}
+
+.descuento-efectivo {
+  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .title-mates {
   display: flex;
   justify-content: center;
   margin: 2%;
-  padding: 1em;
+  padding: 0.5em;
   background-color: #DAF7A6;
   font-family: sans-serif;
 }
@@ -51,11 +58,32 @@ li {
   align-items: center;
 }
 
+.div-ver-mas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+  height: 2em;
+}
+
+.ver-mas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.63);
+}
+
+.ver-mas:hover {
+  background-color: black;
+  color: white;
+}
+
 .title-pintados-amano {
   display: flex;
   justify-content: center;
   margin: 2%;
-  padding: 1em;
+  padding: 0.5em;
   background-color: #DAF7A6;
   font-family: sans-serif;
 }
@@ -65,6 +93,106 @@ li {
   flex-direction: row;
   justify-content: center;
   gap: 1em;
+}
+
+.title-bombillas {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  padding: 0.5em;
+  background-color: #DAF7A6;
+  font-family: sans-serif;
+}
+
+.section-bombillas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+.title-velas {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  padding: 0.5em;
+  background-color: #DAF7A6;
+  font-family: sans-serif;
+}
+
+.section-velas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+.title-destacados {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  padding: 0.5em;
+  background-color: #DAF7A6;
+  font-family: sans-serif;
+}
+
+.section-destacados {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+.span-destacados {
+  text-decoration: line-through;
+}
+
+.footer-index {
+  background-color: white;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80% 1fr;
+}
+
+.footer-ruta-navegacion {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.div-ruta-navegacion {
+  color: rgba(4, 116, 10, 0.4235294118);
+}
+
+.footer-ruta-navegacion :hover {
+  color: rgba(4, 116, 10, 0.4235294118);
+}
+
+.footer-link {
+  color: black;
+}
+
+.div-pie-del-footer {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.logos-redessociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  padding: 5%;
+}
+
+.div-animations :hover {
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .div-cuerpo {
@@ -140,46 +268,6 @@ li {
 .list-indicaciones {
   gap: 5rem;
   list-style-type: circle;
-}
-
-.footer-como-comprar {
-  background-color: white;
-  padding: 1rem;
-}
-
-.div-footer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(200px, 5vh);
-}
-
-.logo-redessociales {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 2rem;
-  align-items: center;
-}
-
-.logo-redessociales :hover {
-  background-color: rgba(128, 128, 128, 0.623);
-  display: block;
-}
-
-.pie-del-footer {
-  grid-column: span 2;
-  display: flex;
-  justify-content: center;
-}
-
-.title-mediosdepago {
-  display: flex;
-  justify-content: center;
-}
-
-.img-mercadopago {
-  height: 180px;
-  width: 400px;
 }
 
 /*# sourceMappingURL=styles.css.map */
