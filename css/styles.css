@@ -256,4 +256,87 @@ li {
   padding: 1rem;
 }
 
+.section-quienes-somos {
+  background-color: rgba(128, 128, 128, 0.144);
+  padding: 1rem;
+}
+
+.title-quienes-somos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgba(4, 116, 10, 0.4235294118);
+}
+
+.parrafo-quienes-somos {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}
+
+@keyframes contenedorAnimado {
+  0% {
+    background-image: url(../img/portada.jpeg);
+  }
+  33% {
+    background-image: url(../img/personalizado-cisne.jpg);
+  }
+  66% {
+    background-image: url(../img/personalizado-tractor.jpg);
+  }
+  100% {
+    background-image: url(../img/velados.jpeg);
+  }
+}
+.contenedor-animado {
+  display: grid;
+  height: 80vh;
+  width: 100%;
+  background-size: 100%;
+  animation-name: contenedorAnimado;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.div-contenedores-mision-valores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  gap: 5rem;
+  background-color: rgba(128, 128, 128, 0.144);
+}
+
+.title-final {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgba(4, 116, 10, 0.4235294118);
+  background-color: rgba(128, 128, 128, 0.144);
+  padding: 0.5rem;
+}
+
+.div-main {
+  background-color: rgba(128, 128, 128, 0.144);
+}
+
+.title-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgba(4, 116, 10, 0.4235294118);
+}
+
+.parrafo-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.preguntas-frecuentes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
 /*# sourceMappingURL=styles.css.map */
