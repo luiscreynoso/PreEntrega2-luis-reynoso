@@ -147,7 +147,7 @@ li {
   text-decoration: line-through;
 }
 
-.footer-index {
+.footer-general {
   background-color: white;
   padding: 2rem;
   display: grid;
@@ -195,79 +195,65 @@ li {
   animation-iteration-count: infinite;
 }
 
-.div-cuerpo {
+.div-productos {
   display: flex;
-  flex-wrap: nowrap;
-}
-
-.header-title :hover {
-  display: flex;
-  justify-content: flex-end;
-  height: 80px;
-  width: 80px;
-}
-
-.header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(80px, 5vh);
+  flex-direction: row;
+  gap: 1em;
   padding: 1em;
 }
 
-.nav-list {
+.title-categorias {
   display: flex;
-  font-size: 14px;
-  align-items: flex-end;
-  gap: 10px;
-}
-
-.nav {
-  display: flex;
-  font-family: "Lato", sans-serif;
-  font-size: 15px;
-  text-decoration: underline;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  border-radius: 1em;
+  padding: 0.5rem;
 }
 
-.nav-list-item :hover {
-  background-color: black;
-  color: white;
-}
-
-.div-main-comocomprar {
-  background-color: #DAF7A6;
-}
-
-.title-indicaciones {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  color: #DAF7A6;
-  padding: 0.5em;
-}
-
-.div-cuerpo-comocomprar {
+.section-contacto {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.section-indicaciones {
-  grid-row: span 2;
-  grid-column: span 2;
+  grid-template-rows: 100%;
+  justify-content: space-around;
+  background-color: #DAF7A6;
+  padding: 1em;
   gap: 2rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.ol-indicaciones {
-  padding: 2rem;
+.title-section-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgba(4, 116, 10, 0.4235294118);
 }
 
-.list-indicaciones {
-  gap: 5rem;
-  list-style-type: circle;
+.div-parrafo-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.parrafo-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.items-contacto :hover {
+  color: black;
+}
+
+.div-section-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section-maps {
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
