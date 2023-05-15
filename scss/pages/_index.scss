@@ -14,10 +14,7 @@
 }
 
 .section-mates {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1em;
+    @include flex-row-center-gap();
 
     .card-body {
         display: flex;
@@ -27,45 +24,12 @@
 }
 
 //Section Mates pintados a mano//
-.title-pintados-amano {
-    @extend .title-mates;
-}
-
 .section-pintados-amano {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1em;
+    @include flex-row-center-gap();
 }
-
-//Section Bombillas//
-.title-bombillas {
-    @extend .title-mates;
-}
-
-.section-bombillas {
-    @extend .section-pintados-amano;
-}
-
-//Section Velas//
-.title-velas {
-    @extend .title-mates;
-}
-
-.section-velas {
-    @extend .section-pintados-amano;
-}
-
-//Section Destacados//
-.title-destacados {
-    @extend .title-mates;
-}
-
+//Section destacado//
 .section-destacados {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1em;
+    @include flex-row-center-gap();
 
     .span-destacados {
         text-decoration: line-through;
