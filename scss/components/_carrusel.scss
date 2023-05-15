@@ -1,0 +1,18 @@
+//Section carousel//
+.div-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font-family-a;
+
+    .title-carousel {
+        color: $color-secundario;
+        text-shadow: 10px 10px 10px;
+    }
+    .descuento-efectivo {
+        animation-delay: 2s;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+
+    }
+}

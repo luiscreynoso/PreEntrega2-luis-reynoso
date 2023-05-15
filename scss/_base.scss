@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+$color-primario: #DAF7A6;
+$color-secundario: #04740a6c;
+$color-terciario: white;
+$color-a:black;
+$color-b:rgba(128, 128, 128, 0.144);
+$font-family-a:'Roboto Slab', serif;
+$font-family-b:sans-serif;

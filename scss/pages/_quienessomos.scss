@@ -1,0 +1,66 @@
+//Quienes somos//
+
+//Section quienes somos//
+.section-quienes-somos {
+    background-color: $color-b;
+    padding: 1rem;
+
+    .title-quienes-somos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: $color-secundario;
+
+        .parrafo-quienes-somos {
+            display: flex;
+            flex-direction: row;
+            justify-content: baseline;
+        }
+    }
+}
+
+@keyframes contenedorAnimado {
+    0% {
+        background-image: url(../img/portada.jpeg);
+    }
+
+    33% {
+        background-image: url(../img/personalizado-cisne.jpg);
+    }
+
+    66% {
+        background-image: url(../img/personalizado-tractor.jpg);
+    }
+
+    100% {
+        background-image: url(../img/velados.jpeg);
+    }
+}
+
+.contenedor-animado {
+    display: grid;
+    height: 80vh;
+    width: 100%;
+    background-size: 100%;
+    animation-name: contenedorAnimado;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.div-contenedores-mision-valores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    gap: 5rem;
+    background-color: $color-b;
+}
+
+.title-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $color-secundario;
+    background-color: $color-b;
+    padding: 0.5rem;
+}

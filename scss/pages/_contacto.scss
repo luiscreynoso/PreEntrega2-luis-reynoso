@@ -1,0 +1,49 @@
+//Section Contacto//
+.title-section-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $color-secundario;
+}
+
+.section-contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100%;
+    justify-content: space-around;
+    background-color: $color-primario;
+    padding: 1em;
+    gap: 2rem;
+
+    .div-parrafo-contacto {
+        display: flex;
+        flex-direction: column;
+
+        .parrafo-contacto {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+}
+
+.items-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    &:hover {
+        color: $color-a;
+    }
+}
+
+.div-section-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+//Contacto Section Maps//
+.section-maps {
+    padding: 1rem;
+}

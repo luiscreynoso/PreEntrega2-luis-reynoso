@@ -24,19 +24,81 @@ li {
   align-items: center;
   font-family: "Roboto Slab", serif;
 }
-
-.title-carousel {
+.div-carousel .title-carousel {
   color: rgba(4, 116, 10, 0.4235294118);
   text-shadow: 10px 10px 10px;
 }
-
-.descuento-efectivo {
+.div-carousel .descuento-efectivo {
   animation-delay: 2s;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
-.title-mates {
+.div-ver-mas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+  height: 2em;
+}
+.div-ver-mas .ver-mas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.63);
+}
+.div-ver-mas .ver-mas:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer-general {
+  background-color: white;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80% 1fr;
+}
+
+.div-ruta-navegacion {
+  color: rgba(4, 116, 10, 0.4235294118);
+}
+.div-ruta-navegacion .footer-ruta-navegacion {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.div-ruta-navegacion .footer-link {
+  color: black;
+}
+.div-ruta-navegacion .footer-link:hover {
+  color: rgba(4, 116, 10, 0.4235294118);
+}
+
+.div-animations :hover {
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.logos-redessociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  padding: 5%;
+}
+
+.div-pie-del-footer {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.title-mates, .title-destacados, .title-velas, .title-bombillas, .title-pintados-amano {
   display: flex;
   justify-content: center;
   margin: 2%;
@@ -51,89 +113,17 @@ li {
   justify-content: center;
   gap: 1em;
 }
-
-.card-body {
+.section-mates .card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.div-ver-mas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 2%;
-  height: 2em;
-}
-
-.ver-mas {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.63);
-}
-
-.ver-mas:hover {
-  background-color: black;
-  color: white;
-}
-
-.title-pintados-amano {
-  display: flex;
-  justify-content: center;
-  margin: 2%;
-  padding: 0.5em;
-  background-color: #DAF7A6;
-  font-family: sans-serif;
-}
-
-.section-pintados-amano {
+.section-pintados-amano, .section-velas, .section-bombillas {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 1em;
-}
-
-.title-bombillas {
-  display: flex;
-  justify-content: center;
-  margin: 2%;
-  padding: 0.5em;
-  background-color: #DAF7A6;
-  font-family: sans-serif;
-}
-
-.section-bombillas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1em;
-}
-
-.title-velas {
-  display: flex;
-  justify-content: center;
-  margin: 2%;
-  padding: 0.5em;
-  background-color: #DAF7A6;
-  font-family: sans-serif;
-}
-
-.section-velas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1em;
-}
-
-.title-destacados {
-  display: flex;
-  justify-content: center;
-  margin: 2%;
-  padding: 0.5em;
-  background-color: #DAF7A6;
-  font-family: sans-serif;
 }
 
 .section-destacados {
@@ -142,57 +132,15 @@ li {
   justify-content: center;
   gap: 1em;
 }
-
-.span-destacados {
+.section-destacados .span-destacados {
   text-decoration: line-through;
 }
 
-.footer-general {
-  background-color: white;
-  padding: 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 80% 1fr;
-}
-
-.footer-ruta-navegacion {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-
-.div-ruta-navegacion {
-  color: rgba(4, 116, 10, 0.4235294118);
-}
-
-.footer-ruta-navegacion :hover {
-  color: rgba(4, 116, 10, 0.4235294118);
-}
-
-.footer-link {
-  color: black;
-}
-
-.div-pie-del-footer {
-  grid-column: span 3;
+.title-categorias {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 1rem;
-}
-
-.logos-redessociales {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-  padding: 5%;
-}
-
-.div-animations :hover {
-  animation-delay: 2s;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  padding: 0.5rem;
 }
 
 .div-productos {
@@ -202,11 +150,11 @@ li {
   padding: 1em;
 }
 
-.title-categorias {
+.title-section-contacto {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 0.5rem;
+  color: rgba(4, 116, 10, 0.4235294118);
 }
 
 .section-contacto {
@@ -218,20 +166,11 @@ li {
   padding: 1em;
   gap: 2rem;
 }
-
-.title-section-contacto {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  color: rgba(4, 116, 10, 0.4235294118);
-}
-
-.div-parrafo-contacto {
+.section-contacto .div-parrafo-contacto {
   display: flex;
   flex-direction: column;
 }
-
-.parrafo-contacto {
+.section-contacto .div-parrafo-contacto .parrafo-contacto {
   display: flex;
   flex-direction: column;
 }
@@ -241,8 +180,7 @@ li {
   flex-direction: column;
   gap: 1rem;
 }
-
-.items-contacto :hover {
+.items-contacto:hover {
   color: black;
 }
 
@@ -260,15 +198,13 @@ li {
   background-color: rgba(128, 128, 128, 0.144);
   padding: 1rem;
 }
-
-.title-quienes-somos {
+.section-quienes-somos .title-quienes-somos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   color: rgba(4, 116, 10, 0.4235294118);
 }
-
-.parrafo-quienes-somos {
+.section-quienes-somos .title-quienes-somos .parrafo-quienes-somos {
   display: flex;
   flex-direction: row;
   justify-content: baseline;
@@ -319,21 +255,18 @@ li {
 .div-main {
   background-color: rgba(128, 128, 128, 0.144);
 }
-
-.title-section {
+.div-main .title-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
   color: rgba(4, 116, 10, 0.4235294118);
 }
-
-.parrafo-title {
+.div-main .title-section .parrafo-title {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-
-.preguntas-frecuentes {
+.div-main .preguntas-frecuentes {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);

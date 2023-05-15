@@ -1,0 +1,21 @@
+//btn ver mas//
+.div-ver-mas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    height: 2em;
+
+    .ver-mas {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.63);
+
+        &:hover {
+            background-color: $color-a;
+            color: $color-terciario;
+        }
+    }
+}
