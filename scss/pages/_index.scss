@@ -24,10 +24,35 @@
 }
 
 //Section Mates pintados a mano//
+.title-pintados-amano {
+    @extend .title-mates;
+}
 .section-pintados-amano {
     @include flex-row-center-gap();
 }
+
+//Section Bombillas//
+.title-bombillas {
+    @extend .title-mates;
+}
+
+.section-bombillas {
+    @extend .section-pintados-amano;
+}
+
+//Section Velas//
+.title-velas {
+    @extend .title-mates;
+}
+
+.section-velas {
+    @extend .section-pintados-amano;
+}
+
 //Section destacado//
+.title-destacados {
+    @extend .title-mates;
+}
 .section-destacados {
     @include flex-row-center-gap();
 
