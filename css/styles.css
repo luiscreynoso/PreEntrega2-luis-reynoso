@@ -53,51 +53,141 @@ li {
   color: white;
 }
 
-.footer-general {
-  background-color: white;
-  padding: 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 80% 1fr;
+@media (max-width: 575px) {
+  .footer-general {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-ruta-navegacion {
+    color: rgba(4, 116, 10, 0.4235294118);
+  }
+  .div-ruta-navegacion .footer-ruta-navegacion {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .div-ruta-navegacion .footer-link {
+    color: black;
+  }
+  .div-ruta-navegacion .footer-link:hover {
+    color: rgba(4, 116, 10, 0.4235294118);
+  }
+  .div-animations :hover {
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .logos-redessociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5%;
+  }
+  .div-pie-del-footer {
+    grid-column: span 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .title-mediosdepago {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+  }
 }
-
-.div-ruta-navegacion {
-  color: rgba(4, 116, 10, 0.4235294118);
+@media (min-width: 576px) and (max-width: 992px) {
+  .footer-general {
+    background-color: white;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80% 1fr;
+  }
+  .div-ruta-navegacion {
+    color: rgba(4, 116, 10, 0.4235294118);
+  }
+  .div-ruta-navegacion .footer-ruta-navegacion {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .div-ruta-navegacion .footer-link {
+    color: black;
+  }
+  .div-ruta-navegacion .footer-link:hover {
+    color: rgba(4, 116, 10, 0.4235294118);
+  }
+  .div-animations :hover {
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .logos-redessociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 5%;
+  }
+  .div-pie-del-footer {
+    grid-column: span 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+  }
 }
-.div-ruta-navegacion .footer-ruta-navegacion {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+@media (min-width: 992px) {
+  .footer-general {
+    background-color: white;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80% 1fr;
+  }
+  .div-ruta-navegacion {
+    color: rgba(4, 116, 10, 0.4235294118);
+  }
+  .div-ruta-navegacion .footer-ruta-navegacion {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .div-ruta-navegacion .footer-link {
+    color: black;
+  }
+  .div-ruta-navegacion .footer-link:hover {
+    color: rgba(4, 116, 10, 0.4235294118);
+  }
+  .div-animations :hover {
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .logos-redessociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 5%;
+  }
+  .div-pie-del-footer {
+    grid-column: span 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+  }
 }
-.div-ruta-navegacion .footer-link {
-  color: black;
-}
-.div-ruta-navegacion .footer-link:hover {
-  color: rgba(4, 116, 10, 0.4235294118);
-}
-
-.div-animations :hover {
-  animation-delay: 2s;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-
-.logos-redessociales {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-  padding: 5%;
-}
-
-.div-pie-del-footer {
-  grid-column: span 3;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 1rem;
-}
-
 .title-mates, .title-destacados, .title-velas, .title-bombillas, .title-pintados-amano {
   display: flex;
   justify-content: center;
@@ -113,8 +203,11 @@ li {
   justify-content: center;
   gap: 1em;
 }
-
-
+.section-mates .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .section-pintados-amano, .section-velas, .section-bombillas {
   display: flex;
@@ -145,12 +238,6 @@ li {
   flex-direction: row;
   gap: 1em;
   padding: 1em;
-}
-
-.section-mates .card-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .title-section-contacto {
@@ -255,6 +342,24 @@ li {
   padding: 0.5rem;
 }
 
+@media (max-width: 575px) {
+  .div-contenedores-mision-valores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    align-items: center;
+  }
+  .title-final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: rgba(4, 116, 10, 0.4235294118);
+    background-color: rgba(128, 128, 128, 0.144);
+    padding: 0.5rem;
+  }
+}
 .div-main {
   background-color: rgba(128, 128, 128, 0.144);
 }

@@ -64,3 +64,21 @@
     background-color: $color-b;
     padding: 0.5rem;
 }
+@media(max-width:575px){
+    .div-contenedores-mision-valores{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5em;
+        align-items: center;
+   }
+   .title-final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: $color-secundario;
+    background-color: $color-b;
+    padding: 0.5rem;
+}
+}
