@@ -47,3 +47,9 @@
 .section-maps {
     padding: 1rem;
 }
+
+@media(max-width:575px) {
+    .section-contacto{
+        display: block;
+    }
+}

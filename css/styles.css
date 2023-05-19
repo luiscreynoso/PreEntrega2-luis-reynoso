@@ -284,6 +284,11 @@ li {
   padding: 1rem;
 }
 
+@media (max-width: 575px) {
+  .section-contacto {
+    display: block;
+  }
+}
 .section-quienes-somos {
   background-color: rgba(128, 128, 128, 0.144);
   padding: 1rem;
