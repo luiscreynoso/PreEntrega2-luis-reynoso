@@ -64,6 +64,9 @@
     background-color: $color-b;
     padding: 0.5rem;
 }
+.card {
+    background-color:$color-secundario;
+}
 @media(max-width:575px){
     .div-contenedores-mision-valores{
         display: flex;
@@ -81,4 +84,7 @@
     background-color: $color-b;
     padding: 0.5rem;
 }
+}
+.card {
+    background-color:$color-secundario;
 }

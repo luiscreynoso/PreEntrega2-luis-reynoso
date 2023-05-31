@@ -19,3 +19,34 @@
         }
     }
 }
+
+.btn {
+    background-color: $color-b;
+
+    &:hover {
+        background-color: rgba(123, 172, 129, 0.548);
+        color: $color-a;
+    }
+}
+
+.number {
+    color: $color-a;
+
+    &:hover {
+        color: $color-terciario;
+    }
+}
+.span-destacados {
+    text-decoration: line-through;
+    color: $color-a;
+
+    &:hover {
+        color: $color-terciario;
+    }
+}
+.div-numero-categorias{
+    background-color: $color-primario;
+}
+.badge{
+    color: $color-a;
+}

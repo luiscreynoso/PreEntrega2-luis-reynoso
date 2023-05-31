@@ -53,6 +53,37 @@ li {
   color: white;
 }
 
+.btn {
+  background-color: rgba(128, 128, 128, 0.144);
+}
+.btn:hover {
+  background-color: rgba(123, 172, 129, 0.548);
+  color: black;
+}
+
+.number {
+  color: black;
+}
+.number:hover {
+  color: white;
+}
+
+.span-destacados {
+  text-decoration: line-through;
+  color: black;
+}
+.span-destacados:hover {
+  color: white;
+}
+
+.div-numero-categorias {
+  background-color: #DAF7A6;
+}
+
+.badge {
+  color: black;
+}
+
 @media (max-width: 575px) {
   .footer-general {
     background-color: white;
@@ -232,9 +263,6 @@ li {
   flex-direction: column;
   align-items: center;
 }
-.section-destacados .span-destacados {
-  text-decoration: line-through;
-}
 
 .title-categorias {
   display: flex;
@@ -254,6 +282,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0.5rem;
 }
 
 .title-section-contacto {
@@ -363,6 +392,10 @@ li {
   padding: 0.5rem;
 }
 
+.card {
+  background-color: rgba(4, 116, 10, 0.4235294118);
+}
+
 @media (max-width: 575px) {
   .div-contenedores-mision-valores {
     display: flex;
@@ -381,6 +414,10 @@ li {
     padding: 0.5rem;
   }
 }
+.card {
+  background-color: rgba(4, 116, 10, 0.4235294118);
+}
+
 .div-main {
   background-color: rgba(128, 128, 128, 0.144);
 }
