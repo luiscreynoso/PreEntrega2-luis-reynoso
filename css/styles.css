@@ -215,12 +215,22 @@ li {
   justify-content: center;
   gap: 1em;
 }
+.section-pintados-amano .card-body, .section-velas .card-body, .section-bombillas .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .section-destacados {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 1em;
+}
+.section-destacados .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .section-destacados .span-destacados {
   text-decoration: line-through;
@@ -238,6 +248,12 @@ li {
   flex-direction: row;
   gap: 1em;
   padding: 1em;
+}
+
+.card-body-productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title-section-contacto {
