@@ -3,21 +3,6 @@
     background-color: $color-b;
 
     .title-section {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         color: $color-secundario;
-
-        .parrafo-title {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-    }
-
-    .preguntas-frecuentes {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr)
     }
 }
