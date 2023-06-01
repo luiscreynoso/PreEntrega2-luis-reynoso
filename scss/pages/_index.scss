@@ -13,60 +13,42 @@
     font-family: $font-family-b;
 }
 
-.section-mates {
-    @include flex-row-center-gap();
 
-    .card-body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
+.card-body {
+    @include flex-column-center
 }
+
 
 //Section Mates pintados a mano//
 .title-pintados-amano {
     @extend .title-mates;
 }
 
-.section-pintados-amano {
-    @include flex-row-center-gap();
 
-    .card-body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.card-body {
+    @include flex-column-center
 }
+
 
 //Section Bombillas//
 .title-bombillas {
     @extend .title-mates;
 }
 
-.section-bombillas {
-    @extend .section-pintados-amano;
-}
 
 //Section Velas//
 .title-velas {
     @extend .title-mates;
 }
 
-.section-velas {
-    @extend .section-pintados-amano;
-}
 
 //Section destacado//
 .title-destacados {
     @extend .title-mates;
 }
 
-.section-destacados {
-    @include flex-row-center-gap();
 
-    .card-body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.card-body {
+    @include flex-column-center
 }

@@ -109,37 +109,19 @@ li {
   font-family: sans-serif;
 }
 
-.section-mates {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1em;
-}
-.section-mates .card-body {
+.card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section-pintados-amano, .section-velas, .section-bombillas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1em;
-}
-.section-pintados-amano .card-body, .section-velas .card-body, .section-bombillas .card-body {
+.card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section-destacados {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1em;
-}
-.section-destacados .card-body {
+.card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
